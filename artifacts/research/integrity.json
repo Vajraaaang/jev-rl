@@ -1,0 +1,18 @@
+{
+  "files": {
+    "advisor-cache-snapshot.json": "7c33450d0b26cf5c57717ea84e421f6b830bb1b0da29d15e36326bc7b1a058e8",
+    "checkpoints/rl_with_jev-11.json": "0edc96b7a9827c575787e6d05463e510a804d7acaed0378993b447ff279d1743",
+    "checkpoints/rl_with_jev-22.json": "5e7fdd726d55dec908b2540104a7535c7a3f9e63336c637bc52f36ff0cadedb3",
+    "checkpoints/rl_with_jev-33.json": "71b3c6b68c2e1578ab68b8171605f1393ad44a9fb30d0802f66318d6aa9cbe79",
+    "checkpoints/rl_without_jev-11.json": "b0b818491256786c8d5d1982be6d4dd7bc63d5405f71781ee7faf8b347fbe6b8",
+    "checkpoints/rl_without_jev-22.json": "658ae90ffe5dca282519cde6f192fead94658d54885bb9c67fae7998bffdd555",
+    "checkpoints/rl_without_jev-33.json": "5db489ba7408b2c27c558ca96098795641361e2786cd47a32f36fb987bb0bd14",
+    "diagnostics.json": "4c9366e4125cbf79cdbaae5dea4dbac412dee7da81c8bea5d2becce0da54c15b",
+    "episodes.jsonl": "a5ffed2f4977fb041e7f3e5d770f2343ef0927b6b5a1657bdceb8785f51b9b6b",
+    "manifest.json": "adcfdf663884b21e6823ee0f78866dd5eec37c1a83463149d3591dd1591ba6e4",
+    "report.json": "ad0f09497faa3d746cc732e4c8ac7e12d5c87a71e87a5b32e4b3276c39fda29f",
+    "report.md": "95f7b075e4614eaee15a7f0127e3a23116fa6bbd4d1ffa4ddbd47276bd7c2813",
+    "training.json": "0f0c41c230bf1753f6888e99923728aa87c8fcbfe63c3a4fdc7a9fa28561c299"
+  },
+  "schema_version": "recovery-benchmark-v2"
+}

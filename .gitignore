@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+artifacts/diagnostics.json
+artifacts/*diagnostics*.json
+artifacts/*diagnostics*.json.lock
+build/
+dist/
+.coverage
+.env

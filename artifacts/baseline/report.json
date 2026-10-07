@@ -1,0 +1,438 @@
+{
+  "advisor_mode": "offline",
+  "evidence": "Offline heuristic; NOT measured hosted Jev accuracy or benefit.",
+  "provider_total_acquisition": {
+    "hosted_calls": 0,
+    "cache_hits": 37385,
+    "input_tokens": 0,
+    "estimated_api_cost_usd": 0.0,
+    "offline_computations": 0
+  },
+  "training": {
+    "episodes_per_policy_per_seed": 20000,
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "faults": [
+      [],
+      [
+        "credentials"
+      ],
+      [
+        "connections"
+      ],
+      [
+        "dependency"
+      ]
+    ],
+    "wording": "train"
+  },
+  "evaluation": {
+    "repeats": 9,
+    "max_ticks": 24,
+    "sustained_probes": 5,
+    "paired_scenarios": true
+  },
+  "summary": {
+    "wording/checklist": {
+      "recovered": 1.0,
+      "actions": 5.25,
+      "downtime_ticks": 3.0,
+      "interventions": 1.0,
+      "tool_cost_units": 1.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "wording/rl_without_jev": {
+      "recovered": 1.0,
+      "actions": 5.25,
+      "downtime_ticks": 2.3333333333333335,
+      "interventions": 1.1666666666666667,
+      "tool_cost_units": 1.225,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "wording/rl_with_jev": {
+      "recovered": 1.0,
+      "actions": 7.083333333333333,
+      "downtime_ticks": 3.3333333333333335,
+      "interventions": 1.6666666666666667,
+      "tool_cost_units": 1.75,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.5833333333333334
+    },
+    "combinations/checklist": {
+      "recovered": 1.0,
+      "actions": 8.25,
+      "downtime_ticks": 6.25,
+      "interventions": 2.5,
+      "tool_cost_units": 2.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "combinations/rl_without_jev": {
+      "recovered": 0.25,
+      "actions": 20.583333333333332,
+      "downtime_ticks": 19.5,
+      "interventions": 1.3333333333333333,
+      "tool_cost_units": 4.950000000000002,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "combinations/rl_with_jev": {
+      "recovered": 0.5,
+      "actions": 16.97222222222222,
+      "downtime_ticks": 15.38888888888889,
+      "interventions": 1.9166666666666667,
+      "tool_cost_units": 3.8194444444444455,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.3333333333333333
+    },
+    "joint/checklist": {
+      "recovered": 1.0,
+      "actions": 8.25,
+      "downtime_ticks": 6.25,
+      "interventions": 2.5,
+      "tool_cost_units": 2.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "joint/rl_without_jev": {
+      "recovered": 0.25,
+      "actions": 20.583333333333332,
+      "downtime_ticks": 19.5,
+      "interventions": 1.3333333333333333,
+      "tool_cost_units": 4.950000000000002,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "joint/rl_with_jev": {
+      "recovered": 0.5,
+      "actions": 16.97222222222222,
+      "downtime_ticks": 15.38888888888889,
+      "interventions": 1.9166666666666667,
+      "tool_cost_units": 3.8694444444444454,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.4166666666666667
+    }
+  },
+  "per_seed": {
+    "wording/checklist/11": {
+      "recovered": 1.0,
+      "actions": 5.25,
+      "downtime_ticks": 3.0,
+      "interventions": 1.0,
+      "tool_cost_units": 1.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "wording/rl_without_jev/11": {
+      "recovered": 1.0,
+      "actions": 5.333333333333333,
+      "downtime_ticks": 2.3333333333333335,
+      "interventions": 1.0833333333333333,
+      "tool_cost_units": 1.225,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "wording/rl_with_jev/11": {
+      "recovered": 1.0,
+      "actions": 5.333333333333333,
+      "downtime_ticks": 2.5833333333333335,
+      "interventions": 1.5833333333333333,
+      "tool_cost_units": 1.375,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.5
+    },
+    "combinations/checklist/11": {
+      "recovered": 1.0,
+      "actions": 8.25,
+      "downtime_ticks": 6.25,
+      "interventions": 2.5,
+      "tool_cost_units": 2.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "combinations/rl_without_jev/11": {
+      "recovered": 0.25,
+      "actions": 20.5,
+      "downtime_ticks": 19.5,
+      "interventions": 1.25,
+      "tool_cost_units": 4.9250000000000025,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "combinations/rl_with_jev/11": {
+      "recovered": 0.5,
+      "actions": 19.0,
+      "downtime_ticks": 16.25,
+      "interventions": 2.8333333333333335,
+      "tool_cost_units": 4.583333333333335,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.75
+    },
+    "joint/checklist/11": {
+      "recovered": 1.0,
+      "actions": 8.25,
+      "downtime_ticks": 6.25,
+      "interventions": 2.5,
+      "tool_cost_units": 2.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "joint/rl_without_jev/11": {
+      "recovered": 0.25,
+      "actions": 20.5,
+      "downtime_ticks": 19.5,
+      "interventions": 1.25,
+      "tool_cost_units": 4.9250000000000025,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "joint/rl_with_jev/11": {
+      "recovered": 0.5,
+      "actions": 19.0,
+      "downtime_ticks": 16.25,
+      "interventions": 2.8333333333333335,
+      "tool_cost_units": 4.583333333333335,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.75
+    },
+    "wording/checklist/22": {
+      "recovered": 1.0,
+      "actions": 5.25,
+      "downtime_ticks": 3.0,
+      "interventions": 1.0,
+      "tool_cost_units": 1.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "wording/rl_without_jev/22": {
+      "recovered": 1.0,
+      "actions": 5.333333333333333,
+      "downtime_ticks": 2.3333333333333335,
+      "interventions": 1.0833333333333333,
+      "tool_cost_units": 1.225,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "wording/rl_with_jev/22": {
+      "recovered": 1.0,
+      "actions": 7.833333333333333,
+      "downtime_ticks": 3.0833333333333335,
+      "interventions": 1.8333333333333333,
+      "tool_cost_units": 1.575,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.5
+    },
+    "combinations/checklist/22": {
+      "recovered": 1.0,
+      "actions": 8.25,
+      "downtime_ticks": 6.25,
+      "interventions": 2.5,
+      "tool_cost_units": 2.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "combinations/rl_without_jev/22": {
+      "recovered": 0.25,
+      "actions": 20.75,
+      "downtime_ticks": 19.5,
+      "interventions": 1.25,
+      "tool_cost_units": 4.975000000000002,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "combinations/rl_with_jev/22": {
+      "recovered": 0.75,
+      "actions": 12.166666666666666,
+      "downtime_ticks": 10.666666666666666,
+      "interventions": 2.4166666666666665,
+      "tool_cost_units": 2.9250000000000007,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.25
+    },
+    "joint/checklist/22": {
+      "recovered": 1.0,
+      "actions": 8.25,
+      "downtime_ticks": 6.25,
+      "interventions": 2.5,
+      "tool_cost_units": 2.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "joint/rl_without_jev/22": {
+      "recovered": 0.25,
+      "actions": 20.75,
+      "downtime_ticks": 19.5,
+      "interventions": 1.25,
+      "tool_cost_units": 4.975000000000002,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "joint/rl_with_jev/22": {
+      "recovered": 0.75,
+      "actions": 12.166666666666666,
+      "downtime_ticks": 10.666666666666666,
+      "interventions": 2.4166666666666665,
+      "tool_cost_units": 2.9250000000000007,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.25
+    },
+    "wording/checklist/33": {
+      "recovered": 1.0,
+      "actions": 5.25,
+      "downtime_ticks": 3.0,
+      "interventions": 1.0,
+      "tool_cost_units": 1.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "wording/rl_without_jev/33": {
+      "recovered": 1.0,
+      "actions": 5.083333333333333,
+      "downtime_ticks": 2.3333333333333335,
+      "interventions": 1.3333333333333333,
+      "tool_cost_units": 1.225,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "wording/rl_with_jev/33": {
+      "recovered": 1.0,
+      "actions": 8.083333333333334,
+      "downtime_ticks": 4.333333333333333,
+      "interventions": 1.5833333333333333,
+      "tool_cost_units": 2.3,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.75
+    },
+    "combinations/checklist/33": {
+      "recovered": 1.0,
+      "actions": 8.25,
+      "downtime_ticks": 6.25,
+      "interventions": 2.5,
+      "tool_cost_units": 2.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "combinations/rl_without_jev/33": {
+      "recovered": 0.25,
+      "actions": 20.5,
+      "downtime_ticks": 19.5,
+      "interventions": 1.5,
+      "tool_cost_units": 4.950000000000003,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "combinations/rl_with_jev/33": {
+      "recovered": 0.25,
+      "actions": 19.75,
+      "downtime_ticks": 19.25,
+      "interventions": 0.5,
+      "tool_cost_units": 3.950000000000001,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "joint/checklist/33": {
+      "recovered": 1.0,
+      "actions": 8.25,
+      "downtime_ticks": 6.25,
+      "interventions": 2.5,
+      "tool_cost_units": 2.125,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "joint/rl_without_jev/33": {
+      "recovered": 0.25,
+      "actions": 20.5,
+      "downtime_ticks": 19.5,
+      "interventions": 1.5,
+      "tool_cost_units": 4.950000000000003,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.0
+    },
+    "joint/rl_with_jev/33": {
+      "recovered": 0.25,
+      "actions": 19.75,
+      "downtime_ticks": 19.25,
+      "interventions": 0.5,
+      "tool_cost_units": 4.100000000000001,
+      "api_cost_usd": 0.0,
+      "input_tokens": 0.0,
+      "api_calls": 0.0,
+      "cache_hits": 0.25
+    }
+  }
+}

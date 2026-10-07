@@ -1,0 +1,6 @@
+{
+  "episodes": 4000,
+  "count": 60,
+  "seeds": [11, 22, 33],
+  "advisor_mode": "offline"
+}

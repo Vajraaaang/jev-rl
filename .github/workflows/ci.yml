@@ -1,0 +1,24 @@
+name: Recovery Lab validation
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install .
+      - run: python -m unittest discover -s "$GITHUB_WORKSPACE/tests" -v
+      - run: python -m compileall -q "$GITHUB_WORKSPACE/jev_recovery"
+      - run: python -m jev_recovery benchmark --config "$GITHUB_WORKSPACE/configs/smoke.json" --output "$RUNNER_TEMP/recovery-smoke" --cache "$RUNNER_TEMP/recovery-cache.json"
+      - run: python -m jev_recovery audit --output "$RUNNER_TEMP/recovery-smoke"
+      - run: python -m jev_recovery replay --output "$RUNNER_TEMP/recovery-smoke"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: smoke-python-${{ matrix.python-version }}
+          path: ${{ runner.temp }}/recovery-smoke

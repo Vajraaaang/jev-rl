@@ -1,0 +1,1322 @@
+[
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "INFO current: application readiness confirmed",
+    "scenario_id": "test-3141-00000"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.85,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 1,
+      "dependency": 0
+    },
+    "logs": "ERROR current: query could not run: password rejected by database",
+    "scenario_id": "test-3141-00001"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "ERROR current: workers stalled: pool capacity unavailable for new borrowers\nWARN archived gateway connection refused; unrelated prior request\nDEBUG telemetry batching completed",
+    "scenario_id": "test-3141-00002"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: downstream DNS lookup errored; upstream transaction aborted",
+    "scenario_id": "test-3141-00003"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: too many connections: checkout budget expired\nERROR current: downstream DNS lookup errored; upstream transaction aborted",
+    "scenario_id": "test-3141-00004"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 1,
+      "dependency": 1
+    },
+    "logs": "ERROR current: query could not run: password rejected by database\nERROR current: query could not run: too many clients; leased sessions not returned\nERROR current: remote endpoint unreachable; breaker refuses requests",
+    "scenario_id": "test-3141-00005"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "INFO old pool saturation alert archived before this incident\nDEBUG telemetry batching completed\nINFO current: application readiness confirmed",
+    "scenario_id": "test-3141-00006"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 1,
+      "dependency": 0
+    },
+    "logs": "WARN archived gateway connection refused; unrelated prior request\nDEBUG telemetry batching completed\nERROR current: session setup failed: authentication secret is out of date",
+    "scenario_id": "test-3141-00007"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "DEBUG telemetry batching completed\nERROR current: query could not run: too many clients; leased sessions not returned\nWARN archived gateway connection refused; unrelated prior request",
+    "scenario_id": "test-3141-00008"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: downstream DNS lookup errored; upstream transaction aborted",
+    "scenario_id": "test-3141-00009"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "INFO old pool saturation alert archived before this incident\nERROR current: too many connections: checkout budget expired\nERROR current: downstream DNS lookup errored; upstream transaction aborted\nWARN archived gateway connection refused; unrelated prior request",
+    "scenario_id": "test-3141-00010"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 1,
+      "dependency": 1
+    },
+    "logs": "ERROR current: downstream DNS lookup errored; upstream transaction aborted\nDEBUG telemetry batching completed\nERROR current: too many connections: checkout budget expired\nWARN archived gateway connection refused; unrelated prior request\nERROR current: principal unauthorized: database identity rejected",
+    "scenario_id": "test-3141-00011"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "INFO current: transaction reached completion",
+    "scenario_id": "test-3141-00012"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.85,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 1,
+      "dependency": 0
+    },
+    "logs": "ERROR current: query could not run: password rejected by database",
+    "scenario_id": "test-3141-00013"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "ERROR current: query could not run: too many clients; leased sessions not returned",
+    "scenario_id": "test-3141-00014"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: remote endpoint unreachable; breaker refuses requests",
+    "scenario_id": "test-3141-00015"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: too many connections: checkout budget expired\nERROR current: downstream DNS lookup errored; upstream transaction aborted",
+    "scenario_id": "test-3141-00016"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 1,
+      "dependency": 1
+    },
+    "logs": "ERROR current: session setup failed: authentication secret is out of date\nERROR current: workers stalled: pool capacity unavailable for new borrowers\nERROR current: gateway connection refused: dependency health probe failed",
+    "scenario_id": "test-3141-00017"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "INFO current: application readiness confirmed",
+    "scenario_id": "test-3141-00018"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 1,
+      "dependency": 0
+    },
+    "logs": "ERROR current: principal unauthorized: database identity rejected\nINFO old pool saturation alert archived before this incident\nWARN archived gateway connection refused; unrelated prior request",
+    "scenario_id": "test-3141-00019"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "ERROR current: workers stalled: pool capacity unavailable for new borrowers\nWARN archived gateway connection refused; unrelated prior request\nINFO old pool saturation alert archived before this incident",
+    "scenario_id": "test-3141-00020"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: downstream DNS lookup errored; upstream transaction aborted",
+    "scenario_id": "test-3141-00021"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: query could not run: too many clients; leased sessions not returned\nERROR current: remote endpoint unreachable; breaker refuses requests",
+    "scenario_id": "test-3141-00022"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 1,
+      "dependency": 1
+    },
+    "logs": "ERROR current: principal unauthorized: database identity rejected\nERROR current: too many connections: checkout budget expired\nERROR current: downstream DNS lookup errored; upstream transaction aborted",
+    "scenario_id": "test-3141-00023"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "INFO current: transaction reached completion",
+    "scenario_id": "test-3141-00024"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.85,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 1,
+      "dependency": 0
+    },
+    "logs": "ERROR current: query could not run: password rejected by database",
+    "scenario_id": "test-3141-00025"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "ERROR current: query could not run: too many clients; leased sessions not returned",
+    "scenario_id": "test-3141-00026"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: gateway connection refused: dependency health probe failed",
+    "scenario_id": "test-3141-00027"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: query could not run: too many clients; leased sessions not returned\nERROR current: remote endpoint unreachable; breaker refuses requests",
+    "scenario_id": "test-3141-00028"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 1,
+      "dependency": 1
+    },
+    "logs": "ERROR current: session setup failed: authentication secret is out of date\nERROR current: workers stalled: pool capacity unavailable for new borrowers\nERROR current: gateway connection refused: dependency health probe failed",
+    "scenario_id": "test-3141-00029"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "INFO current: end-to-end probe successful\nDEBUG telemetry batching completed\nWARN archived gateway connection refused; unrelated prior request",
+    "scenario_id": "test-3141-00030"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.85,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 1,
+      "dependency": 0
+    },
+    "logs": "ERROR current: query could not run: password rejected by database",
+    "scenario_id": "test-3141-00031"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "DEBUG telemetry batching completed\nERROR current: too many connections: checkout budget expired\nINFO old pool saturation alert archived before this incident",
+    "scenario_id": "test-3141-00032"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: gateway connection refused: dependency health probe failed",
+    "scenario_id": "test-3141-00033"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: too many connections: checkout budget expired\nDEBUG telemetry batching completed\nWARN archived gateway connection refused; unrelated prior request\nERROR current: downstream DNS lookup errored; upstream transaction aborted",
+    "scenario_id": "test-3141-00034"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 1,
+      "dependency": 1
+    },
+    "logs": "ERROR current: session setup failed: authentication secret is out of date\nERROR current: workers stalled: pool capacity unavailable for new borrowers\nERROR current: gateway connection refused: dependency health probe failed",
+    "scenario_id": "test-3141-00035"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "INFO current: application readiness confirmed",
+    "scenario_id": "test-3141-00036"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.85,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 1,
+      "dependency": 0
+    },
+    "logs": "ERROR current: query could not run: password rejected by database",
+    "scenario_id": "test-3141-00037"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "ERROR current: workers stalled: pool capacity unavailable for new borrowers",
+    "scenario_id": "test-3141-00038"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "INFO old pool saturation alert archived before this incident\nWARN archived gateway connection refused; unrelated prior request\nERROR current: remote endpoint unreachable; breaker refuses requests",
+    "scenario_id": "test-3141-00039"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: too many connections: checkout budget expired\nERROR current: downstream DNS lookup errored; upstream transaction aborted",
+    "scenario_id": "test-3141-00040"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 1,
+      "dependency": 1
+    },
+    "logs": "ERROR current: session setup failed: authentication secret is out of date\nERROR current: workers stalled: pool capacity unavailable for new borrowers\nERROR current: gateway connection refused: dependency health probe failed",
+    "scenario_id": "test-3141-00041"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "INFO current: transaction reached completion",
+    "scenario_id": "test-3141-00042"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.85,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 1,
+      "dependency": 0
+    },
+    "logs": "ERROR current: session setup failed: authentication secret is out of date",
+    "scenario_id": "test-3141-00043"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "ERROR current: query could not run: too many clients; leased sessions not returned\nINFO old pool saturation alert archived before this incident\nDEBUG telemetry batching completed",
+    "scenario_id": "test-3141-00044"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: remote endpoint unreachable; breaker refuses requests",
+    "scenario_id": "test-3141-00045"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "INFO old pool saturation alert archived before this incident\nERROR current: workers stalled: pool capacity unavailable for new borrowers\nDEBUG telemetry batching completed\nERROR current: gateway connection refused: dependency health probe failed",
+    "scenario_id": "test-3141-00046"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 1,
+      "dependency": 1
+    },
+    "logs": "ERROR current: query could not run: password rejected by database\nERROR current: query could not run: too many clients; leased sessions not returned\nERROR current: remote endpoint unreachable; breaker refuses requests",
+    "scenario_id": "test-3141-00047"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "INFO current: transaction reached completion\nDEBUG telemetry batching completed\nWARN archived gateway connection refused; unrelated prior request",
+    "scenario_id": "test-3141-00048"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 1,
+      "dependency": 0
+    },
+    "logs": "INFO old pool saturation alert archived before this incident\nWARN archived gateway connection refused; unrelated prior request\nERROR current: query could not run: password rejected by database",
+    "scenario_id": "test-3141-00049"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "ERROR current: too many connections: checkout budget expired",
+    "scenario_id": "test-3141-00050"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: downstream DNS lookup errored; upstream transaction aborted",
+    "scenario_id": "test-3141-00051"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: query could not run: too many clients; leased sessions not returned\nERROR current: remote endpoint unreachable; breaker refuses requests",
+    "scenario_id": "test-3141-00052"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 1,
+      "dependency": 1
+    },
+    "logs": "DEBUG telemetry batching completed\nERROR current: too many connections: checkout budget expired\nERROR current: principal unauthorized: database identity rejected\nINFO old pool saturation alert archived before this incident\nERROR current: downstream DNS lookup errored; upstream transaction aborted",
+    "scenario_id": "test-3141-00053"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.08,
+        "dependency": 0.08
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "INFO current: transaction reached completion",
+    "scenario_id": "test-3141-00054"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.08,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 1,
+      "dependency": 0
+    },
+    "logs": "DEBUG telemetry batching completed\nWARN archived gateway connection refused; unrelated prior request\nERROR current: query could not run: password rejected by database",
+    "scenario_id": "test-3141-00055"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 0
+    },
+    "logs": "ERROR current: query could not run: too many clients; leased sessions not returned\nINFO old pool saturation alert archived before this incident\nWARN archived gateway connection refused; unrelated prior request",
+    "scenario_id": "test-3141-00056"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 0,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: downstream DNS lookup errored; upstream transaction aborted\nWARN archived gateway connection refused; unrelated prior request\nINFO old pool saturation alert archived before this incident",
+    "scenario_id": "test-3141-00057"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.08,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 0,
+      "dependency": 1
+    },
+    "logs": "ERROR current: query could not run: too many clients; leased sessions not returned\nERROR current: remote endpoint unreachable; breaker refuses requests",
+    "scenario_id": "test-3141-00058"
+  },
+  {
+    "diagnosis": {
+      "cache_hit": true,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 0,
+      "latency_ms": 0.0,
+      "model": "offline-heuristic-v1",
+      "probabilities": {
+        "connections": 0.85,
+        "credentials": 0.85,
+        "dependency": 0.85
+      },
+      "source": "offline-heuristic"
+    },
+    "labels": {
+      "connections": 1,
+      "credentials": 1,
+      "dependency": 1
+    },
+    "logs": "DEBUG telemetry batching completed\nERROR current: workers stalled: pool capacity unavailable for new borrowers\nERROR current: gateway connection refused: dependency health probe failed\nINFO old pool saturation alert archived before this incident\nERROR current: session setup failed: authentication secret is out of date",
+    "scenario_id": "test-3141-00059"
+  }
+]

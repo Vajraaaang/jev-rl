@@ -1,0 +1,5716 @@
+{
+  "clusters": {
+    "combination-test-3141-00000": "test-3141-00000",
+    "combination-test-3141-00001": "test-3141-00001",
+    "combination-test-3141-00002": "test-3141-00002",
+    "combination-test-3141-00003": "test-3141-00003",
+    "combination-test-3141-00004": "test-3141-00004",
+    "combination-test-3141-00005": "test-3141-00005",
+    "combination-test-3141-00006": "test-3141-00006",
+    "combination-test-3141-00007": "test-3141-00007",
+    "combination-test-3141-00008": "test-3141-00008",
+    "combination-test-3141-00009": "test-3141-00009",
+    "combination-test-3141-00010": "test-3141-00010",
+    "combination-test-3141-00011": "test-3141-00011",
+    "combination-test-3141-00012": "test-3141-00012",
+    "combination-test-3141-00013": "test-3141-00013",
+    "combination-test-3141-00014": "test-3141-00014",
+    "combination-test-3141-00015": "test-3141-00015",
+    "combination-test-3141-00016": "test-3141-00016",
+    "combination-test-3141-00017": "test-3141-00017",
+    "combination-test-3141-00018": "test-3141-00018",
+    "combination-test-3141-00019": "test-3141-00019",
+    "combination-test-3141-00020": "test-3141-00020",
+    "combination-test-3141-00021": "test-3141-00021",
+    "combination-test-3141-00022": "test-3141-00022",
+    "combination-test-3141-00023": "test-3141-00023",
+    "combination-test-3141-00024": "test-3141-00024",
+    "combination-test-3141-00025": "test-3141-00025",
+    "combination-test-3141-00026": "test-3141-00026",
+    "combination-test-3141-00027": "test-3141-00027",
+    "combination-test-3141-00028": "test-3141-00028",
+    "combination-test-3141-00029": "test-3141-00029",
+    "combination-test-3141-00030": "test-3141-00030",
+    "combination-test-3141-00031": "test-3141-00031",
+    "combination-test-3141-00032": "test-3141-00032",
+    "combination-test-3141-00033": "test-3141-00033",
+    "combination-test-3141-00034": "test-3141-00034",
+    "combination-test-3141-00035": "test-3141-00035",
+    "combination-test-3141-00036": "test-3141-00036",
+    "combination-test-3141-00037": "test-3141-00037",
+    "combination-test-3141-00038": "test-3141-00038",
+    "combination-test-3141-00039": "test-3141-00039",
+    "combination-test-3141-00040": "test-3141-00040",
+    "combination-test-3141-00041": "test-3141-00041",
+    "combination-test-3141-00042": "test-3141-00042",
+    "combination-test-3141-00043": "test-3141-00043",
+    "combination-test-3141-00044": "test-3141-00044",
+    "combination-test-3141-00045": "test-3141-00045",
+    "combination-test-3141-00046": "test-3141-00046",
+    "combination-test-3141-00047": "test-3141-00047",
+    "combination-test-3141-00048": "test-3141-00048",
+    "combination-test-3141-00049": "test-3141-00049",
+    "combination-test-3141-00050": "test-3141-00050",
+    "combination-test-3141-00051": "test-3141-00051",
+    "combination-test-3141-00052": "test-3141-00052",
+    "combination-test-3141-00053": "test-3141-00053",
+    "combination-test-3141-00054": "test-3141-00054",
+    "combination-test-3141-00055": "test-3141-00055",
+    "combination-test-3141-00056": "test-3141-00056",
+    "combination-test-3141-00057": "test-3141-00057",
+    "combination-test-3141-00058": "test-3141-00058",
+    "combination-test-3141-00059": "test-3141-00059",
+    "stress-test-57721-00000": "stress-test-57721-00000",
+    "stress-test-57721-00001": "stress-test-57721-00001",
+    "stress-test-57721-00002": "stress-test-57721-00002",
+    "stress-test-57721-00003": "stress-test-57721-00003",
+    "stress-test-57721-00004": "stress-test-57721-00004",
+    "stress-test-57721-00005": "stress-test-57721-00005",
+    "stress-test-57721-00006": "stress-test-57721-00006",
+    "stress-test-57721-00007": "stress-test-57721-00007",
+    "stress-test-57721-00008": "stress-test-57721-00008",
+    "stress-test-57721-00009": "stress-test-57721-00009",
+    "stress-test-57721-00010": "stress-test-57721-00010",
+    "stress-test-57721-00011": "stress-test-57721-00011",
+    "stress-test-57721-00012": "stress-test-57721-00012",
+    "stress-test-57721-00013": "stress-test-57721-00013",
+    "stress-test-57721-00014": "stress-test-57721-00014",
+    "stress-test-57721-00015": "stress-test-57721-00015",
+    "stress-test-57721-00016": "stress-test-57721-00016",
+    "stress-test-57721-00017": "stress-test-57721-00017",
+    "stress-test-57721-00018": "stress-test-57721-00018",
+    "stress-test-57721-00019": "stress-test-57721-00019",
+    "stress-test-57721-00020": "stress-test-57721-00020",
+    "stress-test-57721-00021": "stress-test-57721-00021",
+    "stress-test-57721-00022": "stress-test-57721-00022",
+    "stress-test-57721-00023": "stress-test-57721-00023",
+    "stress-test-57721-00024": "stress-test-57721-00024",
+    "stress-test-57721-00025": "stress-test-57721-00025",
+    "stress-test-57721-00026": "stress-test-57721-00026",
+    "stress-test-57721-00027": "stress-test-57721-00027",
+    "stress-test-57721-00028": "stress-test-57721-00028",
+    "stress-test-57721-00029": "stress-test-57721-00029",
+    "stress-test-57721-00030": "stress-test-57721-00030",
+    "stress-test-57721-00031": "stress-test-57721-00031",
+    "stress-test-57721-00032": "stress-test-57721-00032",
+    "stress-test-57721-00033": "stress-test-57721-00033",
+    "stress-test-57721-00034": "stress-test-57721-00034",
+    "stress-test-57721-00035": "stress-test-57721-00035",
+    "stress-test-57721-00036": "stress-test-57721-00036",
+    "stress-test-57721-00037": "stress-test-57721-00037",
+    "stress-test-57721-00038": "stress-test-57721-00038",
+    "stress-test-57721-00039": "stress-test-57721-00039",
+    "stress-test-57721-00040": "stress-test-57721-00040",
+    "stress-test-57721-00041": "stress-test-57721-00041",
+    "stress-test-57721-00042": "stress-test-57721-00042",
+    "stress-test-57721-00043": "stress-test-57721-00043",
+    "stress-test-57721-00044": "stress-test-57721-00044",
+    "stress-test-57721-00045": "stress-test-57721-00045",
+    "stress-test-57721-00046": "stress-test-57721-00046",
+    "stress-test-57721-00047": "stress-test-57721-00047",
+    "stress-test-57721-00048": "stress-test-57721-00048",
+    "stress-test-57721-00049": "stress-test-57721-00049",
+    "stress-test-57721-00050": "stress-test-57721-00050",
+    "stress-test-57721-00051": "stress-test-57721-00051",
+    "stress-test-57721-00052": "stress-test-57721-00052",
+    "stress-test-57721-00053": "stress-test-57721-00053",
+    "stress-test-57721-00054": "stress-test-57721-00054",
+    "stress-test-57721-00055": "stress-test-57721-00055",
+    "stress-test-57721-00056": "stress-test-57721-00056",
+    "stress-test-57721-00057": "stress-test-57721-00057",
+    "stress-test-57721-00058": "stress-test-57721-00058",
+    "stress-test-57721-00059": "stress-test-57721-00059",
+    "test-3141-00000": "test-3141-00000",
+    "test-3141-00001": "test-3141-00001",
+    "test-3141-00002": "test-3141-00002",
+    "test-3141-00003": "test-3141-00003",
+    "test-3141-00004": "test-3141-00004",
+    "test-3141-00005": "test-3141-00005",
+    "test-3141-00006": "test-3141-00006",
+    "test-3141-00007": "test-3141-00007",
+    "test-3141-00008": "test-3141-00008",
+    "test-3141-00009": "test-3141-00009",
+    "test-3141-00010": "test-3141-00010",
+    "test-3141-00011": "test-3141-00011",
+    "test-3141-00012": "test-3141-00012",
+    "test-3141-00013": "test-3141-00013",
+    "test-3141-00014": "test-3141-00014",
+    "test-3141-00015": "test-3141-00015",
+    "test-3141-00016": "test-3141-00016",
+    "test-3141-00017": "test-3141-00017",
+    "test-3141-00018": "test-3141-00018",
+    "test-3141-00019": "test-3141-00019",
+    "test-3141-00020": "test-3141-00020",
+    "test-3141-00021": "test-3141-00021",
+    "test-3141-00022": "test-3141-00022",
+    "test-3141-00023": "test-3141-00023",
+    "test-3141-00024": "test-3141-00024",
+    "test-3141-00025": "test-3141-00025",
+    "test-3141-00026": "test-3141-00026",
+    "test-3141-00027": "test-3141-00027",
+    "test-3141-00028": "test-3141-00028",
+    "test-3141-00029": "test-3141-00029",
+    "test-3141-00030": "test-3141-00030",
+    "test-3141-00031": "test-3141-00031",
+    "test-3141-00032": "test-3141-00032",
+    "test-3141-00033": "test-3141-00033",
+    "test-3141-00034": "test-3141-00034",
+    "test-3141-00035": "test-3141-00035",
+    "test-3141-00036": "test-3141-00036",
+    "test-3141-00037": "test-3141-00037",
+    "test-3141-00038": "test-3141-00038",
+    "test-3141-00039": "test-3141-00039",
+    "test-3141-00040": "test-3141-00040",
+    "test-3141-00041": "test-3141-00041",
+    "test-3141-00042": "test-3141-00042",
+    "test-3141-00043": "test-3141-00043",
+    "test-3141-00044": "test-3141-00044",
+    "test-3141-00045": "test-3141-00045",
+    "test-3141-00046": "test-3141-00046",
+    "test-3141-00047": "test-3141-00047",
+    "test-3141-00048": "test-3141-00048",
+    "test-3141-00049": "test-3141-00049",
+    "test-3141-00050": "test-3141-00050",
+    "test-3141-00051": "test-3141-00051",
+    "test-3141-00052": "test-3141-00052",
+    "test-3141-00053": "test-3141-00053",
+    "test-3141-00054": "test-3141-00054",
+    "test-3141-00055": "test-3141-00055",
+    "test-3141-00056": "test-3141-00056",
+    "test-3141-00057": "test-3141-00057",
+    "test-3141-00058": "test-3141-00058",
+    "test-3141-00059": "test-3141-00059",
+    "wording-train-1729-00000": "train-1729-00000",
+    "wording-train-1729-00001": "train-1729-00001",
+    "wording-train-1729-00002": "train-1729-00002",
+    "wording-train-1729-00003": "train-1729-00003",
+    "wording-train-1729-00004": "train-1729-00004",
+    "wording-train-1729-00005": "train-1729-00005",
+    "wording-train-1729-00006": "train-1729-00006",
+    "wording-train-1729-00007": "train-1729-00007",
+    "wording-train-1729-00008": "train-1729-00008",
+    "wording-train-1729-00009": "train-1729-00009",
+    "wording-train-1729-00010": "train-1729-00010",
+    "wording-train-1729-00011": "train-1729-00011",
+    "wording-train-1729-00012": "train-1729-00012",
+    "wording-train-1729-00013": "train-1729-00013",
+    "wording-train-1729-00014": "train-1729-00014",
+    "wording-train-1729-00015": "train-1729-00015",
+    "wording-train-1729-00016": "train-1729-00016",
+    "wording-train-1729-00017": "train-1729-00017",
+    "wording-train-1729-00018": "train-1729-00018",
+    "wording-train-1729-00019": "train-1729-00019",
+    "wording-train-1729-00020": "train-1729-00020",
+    "wording-train-1729-00021": "train-1729-00021",
+    "wording-train-1729-00022": "train-1729-00022",
+    "wording-train-1729-00023": "train-1729-00023",
+    "wording-train-1729-00024": "train-1729-00024",
+    "wording-train-1729-00025": "train-1729-00025",
+    "wording-train-1729-00026": "train-1729-00026",
+    "wording-train-1729-00027": "train-1729-00027",
+    "wording-train-1729-00028": "train-1729-00028",
+    "wording-train-1729-00029": "train-1729-00029",
+    "wording-train-1729-00030": "train-1729-00030",
+    "wording-train-1729-00031": "train-1729-00031",
+    "wording-train-1729-00032": "train-1729-00032",
+    "wording-train-1729-00033": "train-1729-00033",
+    "wording-train-1729-00034": "train-1729-00034",
+    "wording-train-1729-00035": "train-1729-00035",
+    "wording-train-1729-00036": "train-1729-00036",
+    "wording-train-1729-00037": "train-1729-00037",
+    "wording-train-1729-00038": "train-1729-00038",
+    "wording-train-1729-00039": "train-1729-00039",
+    "wording-train-1729-00040": "train-1729-00040",
+    "wording-train-1729-00041": "train-1729-00041",
+    "wording-train-1729-00042": "train-1729-00042",
+    "wording-train-1729-00043": "train-1729-00043",
+    "wording-train-1729-00044": "train-1729-00044",
+    "wording-train-1729-00045": "train-1729-00045",
+    "wording-train-1729-00046": "train-1729-00046",
+    "wording-train-1729-00047": "train-1729-00047",
+    "wording-train-1729-00048": "train-1729-00048",
+    "wording-train-1729-00049": "train-1729-00049",
+    "wording-train-1729-00050": "train-1729-00050",
+    "wording-train-1729-00051": "train-1729-00051",
+    "wording-train-1729-00052": "train-1729-00052",
+    "wording-train-1729-00053": "train-1729-00053",
+    "wording-train-1729-00054": "train-1729-00054",
+    "wording-train-1729-00055": "train-1729-00055",
+    "wording-train-1729-00056": "train-1729-00056",
+    "wording-train-1729-00057": "train-1729-00057",
+    "wording-train-1729-00058": "train-1729-00058",
+    "wording-train-1729-00059": "train-1729-00059"
+  },
+  "config": {
+    "advisor_mode": "offline",
+    "cache_path": "/Users/vajraang/Documents/ChatGPT/jev-rl/artifacts/research-diagnostics.json",
+    "count": 60,
+    "episodes": 4000,
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "selection_metric": "mean_validation_reward",
+    "validation_interval": 1000
+  },
+  "schema_version": "recovery-benchmark-v2",
+  "selection_plan": {
+    "candidate_episodes": [
+      1000,
+      2000,
+      3000,
+      4000
+    ],
+    "created_before_training": true,
+    "selection_metric": "mean_validation_reward",
+    "test_set_used": false,
+    "tie_break": "earliest checkpoint",
+    "validation_manifest_sha256": "fc2cb85c21b7ea46de661280323e1f8a4b0ca007fc543ad8a36e4ed264334d9b"
+  },
+  "split_design": "Joint split is disjoint wording and reserved combinations; wording-only reuses train dynamics with held-out text; combination-only uses test dynamics with train text. Independent stress incidents vary deadlines, operation duration, rapid relapse, permanent/late dependencies and noisy logs. Fixed checkpoint candidates are selected solely using saved validation incidents; test incidents never enter selection. This is an exploratory synthetic benchmark, not an external blinded lockbox.",
+  "test_suites": {
+    "combination_only": [
+      {
+        "dependency_ready_at": 7,
+        "faults": [],
+        "id": "combination-test-3141-00000",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 3,
+        "seed": 575829513,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "credentials"
+        ],
+        "id": "combination-test-3141-00001",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 6,
+        "restart_duration": 1,
+        "seed": 1234290343,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [
+          "connections"
+        ],
+        "id": "combination-test-3141-00002",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 1020273922,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "dependency"
+        ],
+        "id": "combination-test-3141-00003",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 1411917860,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00004",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 3,
+        "seed": 599506208,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00005",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 1,
+        "seed": 1936225094,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 24,
+        "faults": [],
+        "id": "combination-test-3141-00006",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 5,
+        "restart_duration": 2,
+        "seed": 990603156,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 18,
+        "faults": [
+          "credentials"
+        ],
+        "id": "combination-test-3141-00007",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 6,
+        "restart_duration": 2,
+        "seed": 1624414833,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 22,
+        "faults": [
+          "connections"
+        ],
+        "id": "combination-test-3141-00008",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 8,
+        "restart_duration": 1,
+        "seed": 844513059,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 21,
+        "faults": [
+          "dependency"
+        ],
+        "id": "combination-test-3141-00009",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 936172451,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00010",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 439604350,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 22,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00011",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 7,
+        "restart_duration": 3,
+        "seed": 1869179273,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "combination-test-3141-00012",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 2,
+        "seed": 1734202931,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials"
+        ],
+        "id": "combination-test-3141-00013",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 3,
+        "seed": 1585587414,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections"
+        ],
+        "id": "combination-test-3141-00014",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 2,
+        "seed": 342494946,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "combination-test-3141-00015",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 3,
+        "seed": 996934354,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00016",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 6,
+        "restart_duration": 3,
+        "seed": 729833546,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00017",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 1868732900,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [],
+        "id": "combination-test-3141-00018",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 1,
+        "seed": 316946507,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 9,
+        "faults": [
+          "credentials"
+        ],
+        "id": "combination-test-3141-00019",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 2046702864,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 7,
+        "faults": [
+          "connections"
+        ],
+        "id": "combination-test-3141-00020",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 11,
+        "restart_duration": 3,
+        "seed": 932768823,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 7,
+        "faults": [
+          "dependency"
+        ],
+        "id": "combination-test-3141-00021",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 3,
+        "seed": 530287234,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00022",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 1,
+        "seed": 831961445,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00023",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 728334178,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 23,
+        "faults": [],
+        "id": "combination-test-3141-00024",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 2036082466,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "combination-test-3141-00025",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 3,
+        "seed": 370646719,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections"
+        ],
+        "id": "combination-test-3141-00026",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 9,
+        "restart_duration": 1,
+        "seed": 650414889,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 22,
+        "faults": [
+          "dependency"
+        ],
+        "id": "combination-test-3141-00027",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 7,
+        "restart_duration": 1,
+        "seed": 2045501582,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 24,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00028",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 2,
+        "seed": 560557612,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 18,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00029",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 2,
+        "seed": 864354380,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "combination-test-3141-00030",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 10,
+        "restart_duration": 1,
+        "seed": 1106493247,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials"
+        ],
+        "id": "combination-test-3141-00031",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 9,
+        "restart_duration": 2,
+        "seed": 584160665,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections"
+        ],
+        "id": "combination-test-3141-00032",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 6,
+        "restart_duration": 2,
+        "seed": 1984731833,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "combination-test-3141-00033",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 3,
+        "seed": 189209513,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00034",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 6,
+        "restart_duration": 3,
+        "seed": 2067298326,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00035",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 1,
+        "seed": 1032025991,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 10,
+        "faults": [],
+        "id": "combination-test-3141-00036",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 3,
+        "seed": 1098120,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [
+          "credentials"
+        ],
+        "id": "combination-test-3141-00037",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 1,
+        "seed": 668608469,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "connections"
+        ],
+        "id": "combination-test-3141-00038",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 9,
+        "restart_duration": 3,
+        "seed": 1908160827,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [
+          "dependency"
+        ],
+        "id": "combination-test-3141-00039",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 8,
+        "restart_duration": 2,
+        "seed": 1120237333,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00040",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 2,
+        "seed": 708897151,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00041",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 1275601687,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 18,
+        "faults": [],
+        "id": "combination-test-3141-00042",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 2,
+        "seed": 471167223,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 24,
+        "faults": [
+          "credentials"
+        ],
+        "id": "combination-test-3141-00043",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 1227939467,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 19,
+        "faults": [
+          "connections"
+        ],
+        "id": "combination-test-3141-00044",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 4,
+        "restart_duration": 2,
+        "seed": 625042696,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 24,
+        "faults": [
+          "dependency"
+        ],
+        "id": "combination-test-3141-00045",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 1575477111,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 22,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00046",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 8,
+        "restart_duration": 2,
+        "seed": 437911780,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 19,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00047",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 1,
+        "seed": 1383256318,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "combination-test-3141-00048",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 940706406,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials"
+        ],
+        "id": "combination-test-3141-00049",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 2125276432,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections"
+        ],
+        "id": "combination-test-3141-00050",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 1,
+        "seed": 1644434712,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "combination-test-3141-00051",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 1595778274,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00052",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 9,
+        "restart_duration": 1,
+        "seed": 946946443,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00053",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 1221728651,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 9,
+        "faults": [],
+        "id": "combination-test-3141-00054",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 378048772,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "credentials"
+        ],
+        "id": "combination-test-3141-00055",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 4,
+        "restart_duration": 1,
+        "seed": 1490557908,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [
+          "connections"
+        ],
+        "id": "combination-test-3141-00056",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 4,
+        "restart_duration": 1,
+        "seed": 1810114829,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "dependency"
+        ],
+        "id": "combination-test-3141-00057",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 1904346853,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 10,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00058",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 730701609,
+        "verification_ticks": 12,
+        "wording": "train"
+      },
+      {
+        "dependency_ready_at": 11,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "combination-test-3141-00059",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 8,
+        "restart_duration": 3,
+        "seed": 1449720568,
+        "verification_ticks": 12,
+        "wording": "train"
+      }
+    ],
+    "joint_holdout": [
+      {
+        "dependency_ready_at": 7,
+        "faults": [],
+        "id": "test-3141-00000",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 3,
+        "seed": 575829513,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "credentials"
+        ],
+        "id": "test-3141-00001",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 6,
+        "restart_duration": 1,
+        "seed": 1234290343,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [
+          "connections"
+        ],
+        "id": "test-3141-00002",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 1020273922,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "dependency"
+        ],
+        "id": "test-3141-00003",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 1411917860,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00004",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 3,
+        "seed": 599506208,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00005",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 1,
+        "seed": 1936225094,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 24,
+        "faults": [],
+        "id": "test-3141-00006",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 5,
+        "restart_duration": 2,
+        "seed": 990603156,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 18,
+        "faults": [
+          "credentials"
+        ],
+        "id": "test-3141-00007",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 6,
+        "restart_duration": 2,
+        "seed": 1624414833,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 22,
+        "faults": [
+          "connections"
+        ],
+        "id": "test-3141-00008",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 8,
+        "restart_duration": 1,
+        "seed": 844513059,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 21,
+        "faults": [
+          "dependency"
+        ],
+        "id": "test-3141-00009",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 936172451,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00010",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 439604350,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 22,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00011",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 7,
+        "restart_duration": 3,
+        "seed": 1869179273,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "test-3141-00012",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 2,
+        "seed": 1734202931,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials"
+        ],
+        "id": "test-3141-00013",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 3,
+        "seed": 1585587414,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections"
+        ],
+        "id": "test-3141-00014",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 2,
+        "seed": 342494946,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "test-3141-00015",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 3,
+        "seed": 996934354,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00016",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 6,
+        "restart_duration": 3,
+        "seed": 729833546,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00017",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 1868732900,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [],
+        "id": "test-3141-00018",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 1,
+        "seed": 316946507,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 9,
+        "faults": [
+          "credentials"
+        ],
+        "id": "test-3141-00019",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 2046702864,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 7,
+        "faults": [
+          "connections"
+        ],
+        "id": "test-3141-00020",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 11,
+        "restart_duration": 3,
+        "seed": 932768823,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 7,
+        "faults": [
+          "dependency"
+        ],
+        "id": "test-3141-00021",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 3,
+        "seed": 530287234,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00022",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 1,
+        "seed": 831961445,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00023",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 728334178,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 23,
+        "faults": [],
+        "id": "test-3141-00024",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 2036082466,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "test-3141-00025",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 3,
+        "seed": 370646719,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections"
+        ],
+        "id": "test-3141-00026",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 9,
+        "restart_duration": 1,
+        "seed": 650414889,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 22,
+        "faults": [
+          "dependency"
+        ],
+        "id": "test-3141-00027",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 7,
+        "restart_duration": 1,
+        "seed": 2045501582,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 24,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00028",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 2,
+        "seed": 560557612,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 18,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00029",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 2,
+        "seed": 864354380,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "test-3141-00030",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 10,
+        "restart_duration": 1,
+        "seed": 1106493247,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials"
+        ],
+        "id": "test-3141-00031",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 9,
+        "restart_duration": 2,
+        "seed": 584160665,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections"
+        ],
+        "id": "test-3141-00032",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 6,
+        "restart_duration": 2,
+        "seed": 1984731833,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "test-3141-00033",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 3,
+        "seed": 189209513,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00034",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 6,
+        "restart_duration": 3,
+        "seed": 2067298326,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00035",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 1,
+        "seed": 1032025991,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 10,
+        "faults": [],
+        "id": "test-3141-00036",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 3,
+        "seed": 1098120,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [
+          "credentials"
+        ],
+        "id": "test-3141-00037",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 1,
+        "seed": 668608469,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "connections"
+        ],
+        "id": "test-3141-00038",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 9,
+        "restart_duration": 3,
+        "seed": 1908160827,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [
+          "dependency"
+        ],
+        "id": "test-3141-00039",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 8,
+        "restart_duration": 2,
+        "seed": 1120237333,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00040",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 2,
+        "seed": 708897151,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00041",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 1275601687,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 18,
+        "faults": [],
+        "id": "test-3141-00042",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 2,
+        "seed": 471167223,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 24,
+        "faults": [
+          "credentials"
+        ],
+        "id": "test-3141-00043",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 1227939467,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 19,
+        "faults": [
+          "connections"
+        ],
+        "id": "test-3141-00044",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 4,
+        "restart_duration": 2,
+        "seed": 625042696,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 24,
+        "faults": [
+          "dependency"
+        ],
+        "id": "test-3141-00045",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 1575477111,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 22,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00046",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 8,
+        "restart_duration": 2,
+        "seed": 437911780,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 19,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00047",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 1,
+        "seed": 1383256318,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "test-3141-00048",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 940706406,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials"
+        ],
+        "id": "test-3141-00049",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 2125276432,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections"
+        ],
+        "id": "test-3141-00050",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 1,
+        "seed": 1644434712,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "test-3141-00051",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 1595778274,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00052",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 9,
+        "restart_duration": 1,
+        "seed": 946946443,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00053",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 1221728651,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 9,
+        "faults": [],
+        "id": "test-3141-00054",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 378048772,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "credentials"
+        ],
+        "id": "test-3141-00055",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 4,
+        "restart_duration": 1,
+        "seed": 1490557908,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [
+          "connections"
+        ],
+        "id": "test-3141-00056",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 4,
+        "restart_duration": 1,
+        "seed": 1810114829,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "dependency"
+        ],
+        "id": "test-3141-00057",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 1904346853,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 10,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00058",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 730701609,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 11,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "test-3141-00059",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 8,
+        "restart_duration": 3,
+        "seed": 1449720568,
+        "verification_ticks": 12,
+        "wording": "test"
+      }
+    ],
+    "stress": [
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "stress-test-57721-00000",
+        "log_variant": 1,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 1119151553,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "stress-test-57721-00001",
+        "log_variant": 2,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 1423127725,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "connections"
+        ],
+        "id": "stress-test-57721-00002",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 1865010130,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "stress-test-57721-00003",
+        "log_variant": 0,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 1713397123,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00004",
+        "log_variant": 0,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 2036631367,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00005",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 1798793855,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "stress-test-57721-00006",
+        "log_variant": 0,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 129001421,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "stress-test-57721-00007",
+        "log_variant": 2,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 1500047139,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "connections"
+        ],
+        "id": "stress-test-57721-00008",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 475521919,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "stress-test-57721-00009",
+        "log_variant": 1,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 2075200077,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00010",
+        "log_variant": 0,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 1738972355,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00011",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 1633323457,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "stress-test-57721-00012",
+        "log_variant": 0,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 127659242,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "stress-test-57721-00013",
+        "log_variant": 1,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 1251256703,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "connections"
+        ],
+        "id": "stress-test-57721-00014",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 1281034820,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "stress-test-57721-00015",
+        "log_variant": 1,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 550304092,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00016",
+        "log_variant": 2,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 328611315,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00017",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 203689061,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "stress-test-57721-00018",
+        "log_variant": 2,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 757068618,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "stress-test-57721-00019",
+        "log_variant": 2,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 1729405905,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "connections"
+        ],
+        "id": "stress-test-57721-00020",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 1197664937,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "stress-test-57721-00021",
+        "log_variant": 0,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 215693995,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00022",
+        "log_variant": 0,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 2063846497,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00023",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 649739956,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "stress-test-57721-00024",
+        "log_variant": 1,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 86776936,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "stress-test-57721-00025",
+        "log_variant": 0,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 1335184081,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "connections"
+        ],
+        "id": "stress-test-57721-00026",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 82770856,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "stress-test-57721-00027",
+        "log_variant": 0,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 263333841,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00028",
+        "log_variant": 1,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 180699594,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00029",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 416296807,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "stress-test-57721-00030",
+        "log_variant": 1,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 506059456,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "stress-test-57721-00031",
+        "log_variant": 2,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 2110353342,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "connections"
+        ],
+        "id": "stress-test-57721-00032",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 833332838,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "stress-test-57721-00033",
+        "log_variant": 0,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 990306696,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00034",
+        "log_variant": 2,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 1261917294,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00035",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 252932407,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "stress-test-57721-00036",
+        "log_variant": 0,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 2006063801,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "stress-test-57721-00037",
+        "log_variant": 0,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 561829600,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "connections"
+        ],
+        "id": "stress-test-57721-00038",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 160329979,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "stress-test-57721-00039",
+        "log_variant": 0,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 1793381587,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00040",
+        "log_variant": 0,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 2036809032,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00041",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 682162056,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "stress-test-57721-00042",
+        "log_variant": 0,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 1632617890,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "stress-test-57721-00043",
+        "log_variant": 2,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 2086775443,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "connections"
+        ],
+        "id": "stress-test-57721-00044",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 1405149824,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "stress-test-57721-00045",
+        "log_variant": 0,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 1059980898,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00046",
+        "log_variant": 1,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 730625648,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00047",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 812550916,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "stress-test-57721-00048",
+        "log_variant": 0,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 302485401,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "stress-test-57721-00049",
+        "log_variant": 0,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 630561476,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "connections"
+        ],
+        "id": "stress-test-57721-00050",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 1481045131,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "stress-test-57721-00051",
+        "log_variant": 1,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 1730469588,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00052",
+        "log_variant": 0,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 267652394,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00053",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 583121017,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "stress-test-57721-00054",
+        "log_variant": 2,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 644379559,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials"
+        ],
+        "id": "stress-test-57721-00055",
+        "log_variant": 0,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 316296669,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "connections"
+        ],
+        "id": "stress-test-57721-00056",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 1494180667,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "stress-test-57721-00057",
+        "log_variant": 2,
+        "max_ticks": 16,
+        "noise": true,
+        "relapse_after": 1,
+        "restart_duration": 1,
+        "seed": 1912662760,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00058",
+        "log_variant": 0,
+        "max_ticks": 24,
+        "noise": true,
+        "relapse_after": 2,
+        "restart_duration": 3,
+        "seed": 1302521432,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 32,
+        "faults": [
+          "credentials",
+          "connections",
+          "dependency"
+        ],
+        "id": "stress-test-57721-00059",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 5,
+        "seed": 1895320035,
+        "verification_ticks": 12,
+        "wording": "test"
+      }
+    ],
+    "wording_only": [
+      {
+        "dependency_ready_at": 8,
+        "faults": [],
+        "id": "wording-train-1729-00000",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 10,
+        "restart_duration": 3,
+        "seed": 945230684,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 9,
+        "faults": [
+          "credentials"
+        ],
+        "id": "wording-train-1729-00001",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 3,
+        "seed": 286629838,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 10,
+        "faults": [
+          "connections"
+        ],
+        "id": "wording-train-1729-00002",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 8,
+        "restart_duration": 3,
+        "seed": 1838639057,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 7,
+        "faults": [
+          "dependency"
+        ],
+        "id": "wording-train-1729-00003",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 2,
+        "seed": 1884669080,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 10,
+        "faults": [
+          "credentials",
+          "connections"
+        ],
+        "id": "wording-train-1729-00004",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 9,
+        "restart_duration": 3,
+        "seed": 248511067,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 10,
+        "faults": [
+          "credentials",
+          "dependency"
+        ],
+        "id": "wording-train-1729-00005",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 3,
+        "seed": 1400171932,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 21,
+        "faults": [],
+        "id": "wording-train-1729-00006",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 5,
+        "restart_duration": 2,
+        "seed": 1258856324,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 23,
+        "faults": [
+          "credentials"
+        ],
+        "id": "wording-train-1729-00007",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 2,
+        "seed": 599005677,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 19,
+        "faults": [
+          "connections"
+        ],
+        "id": "wording-train-1729-00008",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 2,
+        "seed": 1876645187,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 23,
+        "faults": [
+          "dependency"
+        ],
+        "id": "wording-train-1729-00009",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 8,
+        "restart_duration": 2,
+        "seed": 1254216703,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 23,
+        "faults": [
+          "credentials",
+          "connections"
+        ],
+        "id": "wording-train-1729-00010",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 578220208,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 20,
+        "faults": [
+          "credentials",
+          "dependency"
+        ],
+        "id": "wording-train-1729-00011",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 10,
+        "restart_duration": 3,
+        "seed": 1753407053,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "wording-train-1729-00012",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 7,
+        "restart_duration": 1,
+        "seed": 2030423591,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials"
+        ],
+        "id": "wording-train-1729-00013",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 3,
+        "restart_duration": 3,
+        "seed": 502139641,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections"
+        ],
+        "id": "wording-train-1729-00014",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 8,
+        "restart_duration": 1,
+        "seed": 1796995414,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "wording-train-1729-00015",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 3,
+        "seed": 915028058,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "connections"
+        ],
+        "id": "wording-train-1729-00016",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 1,
+        "seed": 1220632355,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "dependency"
+        ],
+        "id": "wording-train-1729-00017",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 3,
+        "seed": 290113667,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [],
+        "id": "wording-train-1729-00018",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 1595900040,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 11,
+        "faults": [
+          "credentials"
+        ],
+        "id": "wording-train-1729-00019",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 7,
+        "restart_duration": 2,
+        "seed": 1174906051,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "connections"
+        ],
+        "id": "wording-train-1729-00020",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 2,
+        "seed": 1576825086,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 7,
+        "faults": [
+          "dependency"
+        ],
+        "id": "wording-train-1729-00021",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 1,
+        "seed": 797851387,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "credentials",
+          "connections"
+        ],
+        "id": "wording-train-1729-00022",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 7,
+        "restart_duration": 1,
+        "seed": 637253802,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "credentials",
+          "dependency"
+        ],
+        "id": "wording-train-1729-00023",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 1,
+        "seed": 144285539,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 24,
+        "faults": [],
+        "id": "wording-train-1729-00024",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 7,
+        "restart_duration": 2,
+        "seed": 1671859752,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 19,
+        "faults": [
+          "credentials"
+        ],
+        "id": "wording-train-1729-00025",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 2,
+        "seed": 53910812,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 18,
+        "faults": [
+          "connections"
+        ],
+        "id": "wording-train-1729-00026",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 1,
+        "seed": 436406555,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 19,
+        "faults": [
+          "dependency"
+        ],
+        "id": "wording-train-1729-00027",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 8,
+        "restart_duration": 2,
+        "seed": 1204809780,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials",
+          "connections"
+        ],
+        "id": "wording-train-1729-00028",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 3,
+        "seed": 820440275,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 20,
+        "faults": [
+          "credentials",
+          "dependency"
+        ],
+        "id": "wording-train-1729-00029",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 3,
+        "seed": 1796352761,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "wording-train-1729-00030",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 4,
+        "restart_duration": 1,
+        "seed": 1559082638,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials"
+        ],
+        "id": "wording-train-1729-00031",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 5,
+        "restart_duration": 2,
+        "seed": 429434622,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections"
+        ],
+        "id": "wording-train-1729-00032",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 11,
+        "restart_duration": 3,
+        "seed": 2138781307,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "wording-train-1729-00033",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 7,
+        "restart_duration": 1,
+        "seed": 176886109,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "connections"
+        ],
+        "id": "wording-train-1729-00034",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 10,
+        "restart_duration": 2,
+        "seed": 609404842,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "dependency"
+        ],
+        "id": "wording-train-1729-00035",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 5,
+        "restart_duration": 3,
+        "seed": 616802133,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 10,
+        "faults": [],
+        "id": "wording-train-1729-00036",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 130592511,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 11,
+        "faults": [
+          "credentials"
+        ],
+        "id": "wording-train-1729-00037",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 7,
+        "restart_duration": 2,
+        "seed": 454533252,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "connections"
+        ],
+        "id": "wording-train-1729-00038",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 5,
+        "restart_duration": 3,
+        "seed": 2034047932,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 10,
+        "faults": [
+          "dependency"
+        ],
+        "id": "wording-train-1729-00039",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 4,
+        "restart_duration": 2,
+        "seed": 279787624,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 8,
+        "faults": [
+          "credentials",
+          "connections"
+        ],
+        "id": "wording-train-1729-00040",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 6,
+        "restart_duration": 2,
+        "seed": 1192794139,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 11,
+        "faults": [
+          "credentials",
+          "dependency"
+        ],
+        "id": "wording-train-1729-00041",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 9,
+        "restart_duration": 2,
+        "seed": 1325536145,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 21,
+        "faults": [],
+        "id": "wording-train-1729-00042",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 7,
+        "restart_duration": 3,
+        "seed": 2084918725,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 18,
+        "faults": [
+          "credentials"
+        ],
+        "id": "wording-train-1729-00043",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 7,
+        "restart_duration": 2,
+        "seed": 1079980025,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 20,
+        "faults": [
+          "connections"
+        ],
+        "id": "wording-train-1729-00044",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 9,
+        "restart_duration": 3,
+        "seed": 121294528,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "dependency"
+        ],
+        "id": "wording-train-1729-00045",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 7,
+        "restart_duration": 3,
+        "seed": 973188124,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 23,
+        "faults": [
+          "credentials",
+          "connections"
+        ],
+        "id": "wording-train-1729-00046",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 4,
+        "restart_duration": 2,
+        "seed": 600250689,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 16,
+        "faults": [
+          "credentials",
+          "dependency"
+        ],
+        "id": "wording-train-1729-00047",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 9,
+        "restart_duration": 3,
+        "seed": 144101002,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [],
+        "id": "wording-train-1729-00048",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 11,
+        "restart_duration": 2,
+        "seed": 639737354,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials"
+        ],
+        "id": "wording-train-1729-00049",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 9,
+        "restart_duration": 2,
+        "seed": 1604428794,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "connections"
+        ],
+        "id": "wording-train-1729-00050",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 6,
+        "restart_duration": 1,
+        "seed": 1638412292,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "dependency"
+        ],
+        "id": "wording-train-1729-00051",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 4,
+        "restart_duration": 1,
+        "seed": 1907232769,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "connections"
+        ],
+        "id": "wording-train-1729-00052",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 11,
+        "restart_duration": 3,
+        "seed": 1656630708,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": null,
+        "faults": [
+          "credentials",
+          "dependency"
+        ],
+        "id": "wording-train-1729-00053",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 1,
+        "seed": 489002734,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [],
+        "id": "wording-train-1729-00054",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 3,
+        "seed": 1578781262,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 11,
+        "faults": [
+          "credentials"
+        ],
+        "id": "wording-train-1729-00055",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 4,
+        "restart_duration": 3,
+        "seed": 72191779,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 12,
+        "faults": [
+          "connections"
+        ],
+        "id": "wording-train-1729-00056",
+        "log_variant": 2,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 6,
+        "restart_duration": 2,
+        "seed": 1589807814,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 10,
+        "faults": [
+          "dependency"
+        ],
+        "id": "wording-train-1729-00057",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 4,
+        "restart_duration": 2,
+        "seed": 1330252750,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 10,
+        "faults": [
+          "credentials",
+          "connections"
+        ],
+        "id": "wording-train-1729-00058",
+        "log_variant": 1,
+        "max_ticks": 48,
+        "noise": true,
+        "relapse_after": 10,
+        "restart_duration": 1,
+        "seed": 2079524827,
+        "verification_ticks": 12,
+        "wording": "test"
+      },
+      {
+        "dependency_ready_at": 6,
+        "faults": [
+          "credentials",
+          "dependency"
+        ],
+        "id": "wording-train-1729-00059",
+        "log_variant": 0,
+        "max_ticks": 48,
+        "noise": false,
+        "relapse_after": 3,
+        "restart_duration": 2,
+        "seed": 392461577,
+        "verification_ticks": 12,
+        "wording": "test"
+      }
+    ]
+  },
+  "train": [
+    {
+      "dependency_ready_at": 8,
+      "faults": [],
+      "id": "train-1729-00000",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 10,
+      "restart_duration": 3,
+      "seed": 945230684,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 9,
+      "faults": [
+        "credentials"
+      ],
+      "id": "train-1729-00001",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 11,
+      "restart_duration": 3,
+      "seed": 286629838,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 10,
+      "faults": [
+        "connections"
+      ],
+      "id": "train-1729-00002",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 8,
+      "restart_duration": 3,
+      "seed": 1838639057,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 7,
+      "faults": [
+        "dependency"
+      ],
+      "id": "train-1729-00003",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 3,
+      "restart_duration": 2,
+      "seed": 1884669080,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 10,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "train-1729-00004",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 9,
+      "restart_duration": 3,
+      "seed": 248511067,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 10,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "train-1729-00005",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 5,
+      "restart_duration": 3,
+      "seed": 1400171932,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 21,
+      "faults": [],
+      "id": "train-1729-00006",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 5,
+      "restart_duration": 2,
+      "seed": 1258856324,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 23,
+      "faults": [
+        "credentials"
+      ],
+      "id": "train-1729-00007",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 5,
+      "restart_duration": 2,
+      "seed": 599005677,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 19,
+      "faults": [
+        "connections"
+      ],
+      "id": "train-1729-00008",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 4,
+      "restart_duration": 2,
+      "seed": 1876645187,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 23,
+      "faults": [
+        "dependency"
+      ],
+      "id": "train-1729-00009",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 8,
+      "restart_duration": 2,
+      "seed": 1254216703,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 23,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "train-1729-00010",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 11,
+      "restart_duration": 2,
+      "seed": 578220208,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 20,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "train-1729-00011",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 10,
+      "restart_duration": 3,
+      "seed": 1753407053,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [],
+      "id": "train-1729-00012",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 7,
+      "restart_duration": 1,
+      "seed": 2030423591,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials"
+      ],
+      "id": "train-1729-00013",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 3,
+      "restart_duration": 3,
+      "seed": 502139641,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "connections"
+      ],
+      "id": "train-1729-00014",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 8,
+      "restart_duration": 1,
+      "seed": 1796995414,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "dependency"
+      ],
+      "id": "train-1729-00015",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 10,
+      "restart_duration": 3,
+      "seed": 915028058,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "train-1729-00016",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 8,
+      "restart_duration": 1,
+      "seed": 1220632355,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "train-1729-00017",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 11,
+      "restart_duration": 3,
+      "seed": 290113667,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 8,
+      "faults": [],
+      "id": "train-1729-00018",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 11,
+      "restart_duration": 2,
+      "seed": 1595900040,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 11,
+      "faults": [
+        "credentials"
+      ],
+      "id": "train-1729-00019",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 7,
+      "restart_duration": 2,
+      "seed": 1174906051,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 6,
+      "faults": [
+        "connections"
+      ],
+      "id": "train-1729-00020",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 4,
+      "restart_duration": 2,
+      "seed": 1576825086,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 7,
+      "faults": [
+        "dependency"
+      ],
+      "id": "train-1729-00021",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 3,
+      "restart_duration": 1,
+      "seed": 797851387,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 6,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "train-1729-00022",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 7,
+      "restart_duration": 1,
+      "seed": 637253802,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 6,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "train-1729-00023",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 5,
+      "restart_duration": 1,
+      "seed": 144285539,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 24,
+      "faults": [],
+      "id": "train-1729-00024",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 7,
+      "restart_duration": 2,
+      "seed": 1671859752,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 19,
+      "faults": [
+        "credentials"
+      ],
+      "id": "train-1729-00025",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 4,
+      "restart_duration": 2,
+      "seed": 53910812,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 18,
+      "faults": [
+        "connections"
+      ],
+      "id": "train-1729-00026",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 4,
+      "restart_duration": 1,
+      "seed": 436406555,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 19,
+      "faults": [
+        "dependency"
+      ],
+      "id": "train-1729-00027",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 8,
+      "restart_duration": 2,
+      "seed": 1204809780,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 16,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "train-1729-00028",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 3,
+      "restart_duration": 3,
+      "seed": 820440275,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 20,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "train-1729-00029",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 4,
+      "restart_duration": 3,
+      "seed": 1796352761,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [],
+      "id": "train-1729-00030",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 4,
+      "restart_duration": 1,
+      "seed": 1559082638,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials"
+      ],
+      "id": "train-1729-00031",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 5,
+      "restart_duration": 2,
+      "seed": 429434622,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "connections"
+      ],
+      "id": "train-1729-00032",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 11,
+      "restart_duration": 3,
+      "seed": 2138781307,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "dependency"
+      ],
+      "id": "train-1729-00033",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 7,
+      "restart_duration": 1,
+      "seed": 176886109,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "train-1729-00034",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 10,
+      "restart_duration": 2,
+      "seed": 609404842,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "train-1729-00035",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 5,
+      "restart_duration": 3,
+      "seed": 616802133,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 10,
+      "faults": [],
+      "id": "train-1729-00036",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 11,
+      "restart_duration": 2,
+      "seed": 130592511,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 11,
+      "faults": [
+        "credentials"
+      ],
+      "id": "train-1729-00037",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 7,
+      "restart_duration": 2,
+      "seed": 454533252,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 12,
+      "faults": [
+        "connections"
+      ],
+      "id": "train-1729-00038",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 5,
+      "restart_duration": 3,
+      "seed": 2034047932,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 10,
+      "faults": [
+        "dependency"
+      ],
+      "id": "train-1729-00039",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 4,
+      "restart_duration": 2,
+      "seed": 279787624,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 8,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "train-1729-00040",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 6,
+      "restart_duration": 2,
+      "seed": 1192794139,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 11,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "train-1729-00041",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 9,
+      "restart_duration": 2,
+      "seed": 1325536145,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 21,
+      "faults": [],
+      "id": "train-1729-00042",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 7,
+      "restart_duration": 3,
+      "seed": 2084918725,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 18,
+      "faults": [
+        "credentials"
+      ],
+      "id": "train-1729-00043",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 7,
+      "restart_duration": 2,
+      "seed": 1079980025,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 20,
+      "faults": [
+        "connections"
+      ],
+      "id": "train-1729-00044",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 9,
+      "restart_duration": 3,
+      "seed": 121294528,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 16,
+      "faults": [
+        "dependency"
+      ],
+      "id": "train-1729-00045",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 7,
+      "restart_duration": 3,
+      "seed": 973188124,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 23,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "train-1729-00046",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 4,
+      "restart_duration": 2,
+      "seed": 600250689,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 16,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "train-1729-00047",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 9,
+      "restart_duration": 3,
+      "seed": 144101002,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [],
+      "id": "train-1729-00048",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 11,
+      "restart_duration": 2,
+      "seed": 639737354,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials"
+      ],
+      "id": "train-1729-00049",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 9,
+      "restart_duration": 2,
+      "seed": 1604428794,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "connections"
+      ],
+      "id": "train-1729-00050",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 6,
+      "restart_duration": 1,
+      "seed": 1638412292,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "dependency"
+      ],
+      "id": "train-1729-00051",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 4,
+      "restart_duration": 1,
+      "seed": 1907232769,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "train-1729-00052",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 11,
+      "restart_duration": 3,
+      "seed": 1656630708,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "train-1729-00053",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 4,
+      "restart_duration": 1,
+      "seed": 489002734,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 6,
+      "faults": [],
+      "id": "train-1729-00054",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 3,
+      "restart_duration": 3,
+      "seed": 1578781262,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 11,
+      "faults": [
+        "credentials"
+      ],
+      "id": "train-1729-00055",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 4,
+      "restart_duration": 3,
+      "seed": 72191779,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 12,
+      "faults": [
+        "connections"
+      ],
+      "id": "train-1729-00056",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 6,
+      "restart_duration": 2,
+      "seed": 1589807814,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 10,
+      "faults": [
+        "dependency"
+      ],
+      "id": "train-1729-00057",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 4,
+      "restart_duration": 2,
+      "seed": 1330252750,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 10,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "train-1729-00058",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 10,
+      "restart_duration": 1,
+      "seed": 2079524827,
+      "verification_ticks": 12,
+      "wording": "train"
+    },
+    {
+      "dependency_ready_at": 6,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "train-1729-00059",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 3,
+      "restart_duration": 2,
+      "seed": 392461577,
+      "verification_ticks": 12,
+      "wording": "train"
+    }
+  ],
+  "validation": [
+    {
+      "dependency_ready_at": 7,
+      "faults": [],
+      "id": "validation-2718-00000",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 5,
+      "restart_duration": 3,
+      "seed": 1978588607,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 11,
+      "faults": [
+        "credentials"
+      ],
+      "id": "validation-2718-00001",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 3,
+      "restart_duration": 2,
+      "seed": 1561800502,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 10,
+      "faults": [
+        "connections"
+      ],
+      "id": "validation-2718-00002",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 10,
+      "restart_duration": 2,
+      "seed": 29409725,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 8,
+      "faults": [
+        "dependency"
+      ],
+      "id": "validation-2718-00003",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 11,
+      "restart_duration": 2,
+      "seed": 90044411,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 9,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "validation-2718-00004",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 3,
+      "restart_duration": 1,
+      "seed": 1964247216,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 10,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "validation-2718-00005",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 6,
+      "restart_duration": 3,
+      "seed": 1626036109,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 22,
+      "faults": [],
+      "id": "validation-2718-00006",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 8,
+      "restart_duration": 2,
+      "seed": 146509312,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 17,
+      "faults": [
+        "credentials"
+      ],
+      "id": "validation-2718-00007",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 8,
+      "restart_duration": 1,
+      "seed": 2040968242,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 22,
+      "faults": [
+        "connections"
+      ],
+      "id": "validation-2718-00008",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 4,
+      "restart_duration": 3,
+      "seed": 1303616201,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 20,
+      "faults": [
+        "dependency"
+      ],
+      "id": "validation-2718-00009",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 3,
+      "restart_duration": 1,
+      "seed": 1838723882,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 23,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "validation-2718-00010",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 5,
+      "restart_duration": 1,
+      "seed": 942004472,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 20,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "validation-2718-00011",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 4,
+      "restart_duration": 1,
+      "seed": 2027338227,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [],
+      "id": "validation-2718-00012",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 10,
+      "restart_duration": 2,
+      "seed": 255464287,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials"
+      ],
+      "id": "validation-2718-00013",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 3,
+      "restart_duration": 3,
+      "seed": 708812975,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "connections"
+      ],
+      "id": "validation-2718-00014",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 3,
+      "restart_duration": 2,
+      "seed": 357192835,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "dependency"
+      ],
+      "id": "validation-2718-00015",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 9,
+      "restart_duration": 1,
+      "seed": 1112796145,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "validation-2718-00016",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 6,
+      "restart_duration": 2,
+      "seed": 291846388,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "validation-2718-00017",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 10,
+      "restart_duration": 2,
+      "seed": 1433809330,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 11,
+      "faults": [],
+      "id": "validation-2718-00018",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 6,
+      "restart_duration": 3,
+      "seed": 1895548406,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 9,
+      "faults": [
+        "credentials"
+      ],
+      "id": "validation-2718-00019",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 3,
+      "restart_duration": 2,
+      "seed": 1564524272,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 8,
+      "faults": [
+        "connections"
+      ],
+      "id": "validation-2718-00020",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 6,
+      "restart_duration": 1,
+      "seed": 679411402,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 11,
+      "faults": [
+        "dependency"
+      ],
+      "id": "validation-2718-00021",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 11,
+      "restart_duration": 1,
+      "seed": 583041401,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 10,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "validation-2718-00022",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 10,
+      "restart_duration": 3,
+      "seed": 1725233867,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 9,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "validation-2718-00023",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 3,
+      "restart_duration": 2,
+      "seed": 27918389,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 20,
+      "faults": [],
+      "id": "validation-2718-00024",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 10,
+      "restart_duration": 1,
+      "seed": 777422946,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 24,
+      "faults": [
+        "credentials"
+      ],
+      "id": "validation-2718-00025",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 3,
+      "restart_duration": 1,
+      "seed": 942750972,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 16,
+      "faults": [
+        "connections"
+      ],
+      "id": "validation-2718-00026",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 9,
+      "restart_duration": 2,
+      "seed": 327086299,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 16,
+      "faults": [
+        "dependency"
+      ],
+      "id": "validation-2718-00027",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 9,
+      "restart_duration": 2,
+      "seed": 1828753112,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 19,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "validation-2718-00028",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 6,
+      "restart_duration": 2,
+      "seed": 1279838766,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 19,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "validation-2718-00029",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 7,
+      "restart_duration": 1,
+      "seed": 596526337,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [],
+      "id": "validation-2718-00030",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 5,
+      "restart_duration": 1,
+      "seed": 2015680744,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials"
+      ],
+      "id": "validation-2718-00031",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 8,
+      "restart_duration": 1,
+      "seed": 936363237,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "connections"
+      ],
+      "id": "validation-2718-00032",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 9,
+      "restart_duration": 3,
+      "seed": 1709371512,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "dependency"
+      ],
+      "id": "validation-2718-00033",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 6,
+      "restart_duration": 1,
+      "seed": 2052032842,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "validation-2718-00034",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 3,
+      "restart_duration": 2,
+      "seed": 802855465,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "validation-2718-00035",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 3,
+      "restart_duration": 2,
+      "seed": 1482055192,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 7,
+      "faults": [],
+      "id": "validation-2718-00036",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 6,
+      "restart_duration": 2,
+      "seed": 1863042103,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 8,
+      "faults": [
+        "credentials"
+      ],
+      "id": "validation-2718-00037",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 9,
+      "restart_duration": 3,
+      "seed": 915684428,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 11,
+      "faults": [
+        "connections"
+      ],
+      "id": "validation-2718-00038",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 10,
+      "restart_duration": 2,
+      "seed": 655309472,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 12,
+      "faults": [
+        "dependency"
+      ],
+      "id": "validation-2718-00039",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 10,
+      "restart_duration": 3,
+      "seed": 1633867861,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 6,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "validation-2718-00040",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 5,
+      "restart_duration": 3,
+      "seed": 2145098882,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 9,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "validation-2718-00041",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 6,
+      "restart_duration": 3,
+      "seed": 1360806638,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 16,
+      "faults": [],
+      "id": "validation-2718-00042",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 3,
+      "restart_duration": 2,
+      "seed": 1190462013,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 16,
+      "faults": [
+        "credentials"
+      ],
+      "id": "validation-2718-00043",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 4,
+      "restart_duration": 2,
+      "seed": 461985512,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 16,
+      "faults": [
+        "connections"
+      ],
+      "id": "validation-2718-00044",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 6,
+      "restart_duration": 1,
+      "seed": 258241119,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 16,
+      "faults": [
+        "dependency"
+      ],
+      "id": "validation-2718-00045",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 4,
+      "restart_duration": 3,
+      "seed": 676455695,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 17,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "validation-2718-00046",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 8,
+      "restart_duration": 3,
+      "seed": 547767404,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 22,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "validation-2718-00047",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 7,
+      "restart_duration": 3,
+      "seed": 898673537,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [],
+      "id": "validation-2718-00048",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 10,
+      "restart_duration": 3,
+      "seed": 203397024,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials"
+      ],
+      "id": "validation-2718-00049",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 6,
+      "restart_duration": 1,
+      "seed": 1288389498,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "connections"
+      ],
+      "id": "validation-2718-00050",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 9,
+      "restart_duration": 3,
+      "seed": 1255533355,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "dependency"
+      ],
+      "id": "validation-2718-00051",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 7,
+      "restart_duration": 2,
+      "seed": 635975572,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "validation-2718-00052",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 11,
+      "restart_duration": 2,
+      "seed": 1047445405,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": null,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "validation-2718-00053",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 8,
+      "restart_duration": 3,
+      "seed": 1575395281,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 6,
+      "faults": [],
+      "id": "validation-2718-00054",
+      "log_variant": 2,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 4,
+      "restart_duration": 3,
+      "seed": 2134022629,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 7,
+      "faults": [
+        "credentials"
+      ],
+      "id": "validation-2718-00055",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 11,
+      "restart_duration": 2,
+      "seed": 1714854670,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 10,
+      "faults": [
+        "connections"
+      ],
+      "id": "validation-2718-00056",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 11,
+      "restart_duration": 1,
+      "seed": 2131034121,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 9,
+      "faults": [
+        "dependency"
+      ],
+      "id": "validation-2718-00057",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 4,
+      "restart_duration": 3,
+      "seed": 1944455465,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 6,
+      "faults": [
+        "credentials",
+        "connections"
+      ],
+      "id": "validation-2718-00058",
+      "log_variant": 1,
+      "max_ticks": 48,
+      "noise": true,
+      "relapse_after": 6,
+      "restart_duration": 3,
+      "seed": 2089061204,
+      "verification_ticks": 12,
+      "wording": "validation"
+    },
+    {
+      "dependency_ready_at": 11,
+      "faults": [
+        "credentials",
+        "dependency"
+      ],
+      "id": "validation-2718-00059",
+      "log_variant": 0,
+      "max_ticks": 48,
+      "noise": false,
+      "relapse_after": 5,
+      "restart_duration": 2,
+      "seed": 576107774,
+      "verification_ticks": 12,
+      "wording": "validation"
+    }
+  ]
+}
