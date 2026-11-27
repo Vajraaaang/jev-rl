@@ -130,6 +130,25 @@ def experiment(args):
     print(f'Report: {output / "report.json"}')
 
 
+def serve_dashboard(args):
+    from .service import serve
+    if args.prompt_key:
+        import getpass
+        import os
+        import sys
+        import warnings
+        if args.advisor != 'live' or not sys.stdin.isatty():
+            raise ValueError('--prompt-key requires live mode and an interactive terminal')
+        try:
+            with warnings.catch_warnings():
+                warnings.simplefilter('error', getpass.GetPassWarning)
+                os.environ['TYPESAFE_API_KEY'] = getpass.getpass('TypeSafe API key: ').strip()
+        except (EOFError, getpass.GetPassWarning) as exc:
+            raise ValueError('Unable to read an API key securely') from exc
+    serve(args.port, output=Path(args.output).expanduser().resolve(), advisor_mode=args.advisor,
+          cache_path=Path(args.cache).expanduser().resolve() if args.advisor != 'offline' else None)
+
+
 def main():
     parser = argparse.ArgumentParser(description='Local recovery RL experiments; no production effects')
     commands = parser.add_subparsers(dest='command', required=True)
@@ -157,8 +176,10 @@ def main():
     serve = commands.add_parser('serve', help='Expose an isolated fault-injected demo service on localhost')
     serve.add_argument('--port', type=int, default=8080)
     serve.add_argument('--output', default=str(ROOT / 'artifacts' / 'research'), help='Benchmark directory used for report/checkpoints')
-    serve.set_defaults(func=lambda args: __import__('jev_recovery.service', fromlist=['serve']).serve(
-        args.port, output=Path(args.output).expanduser().resolve()))
+    serve.add_argument('--advisor', choices=('offline', 'cached', 'live'), default='offline')
+    serve.add_argument('--cache', default=str(ROOT / 'artifacts' / 'dashboard-diagnostics.json'), help='Advisor cache file')
+    serve.add_argument('--prompt-key', action='store_true', help='Read the TypeSafe key without echo in this terminal')
+    serve.set_defaults(func=serve_dashboard)
     args = parser.parse_args()
     try:
         args.func(args)

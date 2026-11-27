@@ -1,14 +1,17 @@
 """HTTP integration invariants for the lab: isolation, health, bounded local tools."""
 import concurrent.futures
 import json
+import os
 from pathlib import Path
 import tempfile
 import threading
 import unittest
+from unittest.mock import patch
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from jev_recovery.service import create_server, MAX_BODY
+from test_jev import Response, api_response
 
 
 class DashboardTests(unittest.TestCase):
@@ -28,8 +31,8 @@ class DashboardTests(unittest.TestCase):
         cls.thread.join(timeout=5)
         cls.temp.cleanup()
 
-    def call(self, route, data=None, headers=None):
-        request = Request(self.base + route, data=json.dumps(data).encode() if data is not None else None,
+    def call(self, route, data=None, headers=None, base=None):
+        request = Request((base or self.base) + route, data=json.dumps(data).encode() if data is not None else None,
                           headers={'Content-Type': 'application/json', **(headers or {})})
         try:
             with urlopen(request, timeout=5) as response:
@@ -53,6 +56,46 @@ class DashboardTests(unittest.TestCase):
                 self.assertIn("default-src 'self'", response.headers['Content-Security-Policy'])
         self.assertEqual(self.call('/../README.md')[0], 404)
         self.assertEqual(self.call('/api/report?path=/etc/passwd')[0], 404)
+
+    def test_live_dashboard_requires_key_before_binding(self):
+        with patch.dict(os.environ, {'TYPESAFE_API_KEY': ''}):
+            with self.assertRaisesRegex(ValueError, 'TYPESAFE_API_KEY'):
+                create_server(port=0, output=self.output, advisor_mode='live')
+
+    def test_live_dashboard_consults_hosted_jev_and_reuses_cache_across_sessions(self):
+        with tempfile.TemporaryDirectory() as directory, patch.dict(os.environ, {'TYPESAFE_API_KEY': 'fixture-dashboard-key'}), patch(
+            'jev_recovery.jev._safe_urlopen', return_value=Response(api_response())
+        ) as upstream:
+            cache = Path(directory).resolve() / 'diagnostics.json'
+            with create_server(port=0, output=self.output, advisor_mode='live', cache_path=cache) as server:
+                thread = threading.Thread(target=server.serve_forever, daemon=True)
+                thread.start()
+                try:
+                    url = f'http://127.0.0.1:{server.server_port}'
+                    status, meta = self.call('/api/meta', base=url)
+                    self.assertEqual(status, 200)
+                    self.assertTrue(meta['hosted_api_enabled'])
+                    self.assertEqual(meta['advisor_mode'], 'live')
+                    for expected_calls in (1, 0):
+                        status, incident = self.call('/api/incidents', {'faults': ['credentials']}, base=url)
+                        self.assertEqual(status, 201)
+                        route = f'/api/incidents/{incident["id"]}/step'
+                        self.assertEqual(self.call(route, {'action': 'jev'}, base=url)[0], 400)
+                        _, inspected = self.call(route, {'action': 'logs'}, base=url)
+                        status, result = self.call(route, {'action': 'jev'}, base=url)
+                        self.assertEqual(status, 200)
+                        diagnosis = result['observation']['evidence']['diagnosis']
+                        self.assertEqual(diagnosis['source'], 'hosted-jev')
+                        self.assertEqual(diagnosis['cache_hit'], not expected_calls)
+                        self.assertEqual(result['metrics']['api_calls'], expected_calls)
+                        self.assertEqual(json.loads(upstream.call_args.args[0].data)['state'], inspected['observation']['evidence']['logs'])
+                        self.assertNotIn('fixture-dashboard-key', json.dumps([meta, incident, result]))
+                    upstream.assert_called_once()
+                    self.assertEqual(upstream.call_args.args[0].get_header('Authorization'), 'Bearer fixture-dashboard-key')
+                    self.assertNotIn('fixture-dashboard-key', cache.read_text())
+                finally:
+                    server.shutdown()
+                    thread.join(timeout=5)
 
     def test_independent_sessions_do_not_share_actions_or_evidence(self):
         first, second = self.incident(), self.incident([])

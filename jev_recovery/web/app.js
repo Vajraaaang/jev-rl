@@ -1,6 +1,7 @@
 'use strict';
 const $ = (id) => document.getElementById(id);
 let current = null, metadata = null, busy = false;
+const advisorLabel = (mode) => ({offline: 'offline heuristic', cached: 'cached Jev', live: 'hosted Jev'})[mode] || 'advisor';
 const display = (value) => value === null || value === undefined ? 'Not inspected' : typeof value === 'object' ? JSON.stringify(value) : String(value);
 const numeric = (value, digits = 2) => Number.isFinite(Number(value)) ? Number(value).toFixed(digits) : '—';
 function status(message, error = false) { $('status').textContent = message; $('status').classList.toggle('error', error); }
@@ -54,17 +55,17 @@ function render(session) {
   $('hypotheses').replaceChildren();
   const diagnosis = e.diagnosis;
   const probabilities = diagnosis?.probabilities || diagnosis?.scores;
-  if (probabilities) {
+  if (diagnosis?.available && probabilities) {
     Object.entries(probabilities).sort((a, b) => b[1] - a[1]).forEach(([cause, score]) => {
       const row = node('div', undefined, 'hypothesis'), head = node('div', undefined, 'hypothesishead');
       head.append(node('span', cause.toUpperCase()), node('span', `${numeric(score * 100, 0)}%`));
       const meter = node('meter', `${numeric(score * 100, 0)}%`, 'meter'); meter.min = 0; meter.max = 1; meter.value = score; meter.setAttribute('aria-label', `${cause} estimated likelihood`);
       row.append(head, meter); $('hypotheses').append(row);
     });
-    $('advisor-origin').textContent = `SOURCE: ${diagnosis.source || session.advisor_source} · ${diagnosis.cache_hit ? 'CACHE HIT' : 'LOCAL COMPUTATION'}`;
+    $('advisor-origin').textContent = `SOURCE: ${diagnosis.source || session.advisor_source} · ${diagnosis.cache_hit ? 'CACHE HIT' : session.advisor_mode === 'live' ? 'HOSTED CALL' : 'LOCAL COMPUTATION'}`;
   } else {
-    $('hypotheses').append(node('p', diagnosis ? display(diagnosis) : session.done ? 'This controller did not request an advisor diagnosis.' : 'Collect logs, then consult the offline advisor.', 'empty'));
-    $('advisor-origin').textContent = session.done && !diagnosis ? 'NO ADVISOR CONSULTATION' : 'SOURCE: OFFLINE HEURISTIC';
+    $('hypotheses').append(node('p', diagnosis ? 'Diagnosis unavailable. Check your TypeSafe key, network or cache if using Jev.' : session.done ? 'This controller did not request an advisor diagnosis.' : `Collect logs, then consult ${advisorLabel(session.advisor_mode)}.`, 'empty'));
+    $('advisor-origin').textContent = diagnosis ? 'DIAGNOSIS UNAVAILABLE' : session.done ? 'NO ADVISOR CONSULTATION' : `ADVISOR: ${advisorLabel(session.advisor_mode).toUpperCase()}`;
   }
   $('timeline').replaceChildren();
   const trace = session.trace || [];
@@ -143,6 +144,9 @@ function selectTab(tab) {
 $('refresh-report').addEventListener('click', report);
 api('/api/meta').then(data => {
   metadata = data;
+  $('advisor-mode').textContent = advisorLabel(data.advisor_mode);
+  $('advisor-mode-detail').textContent = data.hosted_api_enabled ? 'Consulting the advisor can send collected simulated logs to TypeSafe.' : 'This mode makes no hosted requests.';
+  $('advisor-origin').textContent = `ADVISOR: ${advisorLabel(data.advisor_mode).toUpperCase()}`;
   for (const option of $('policy').options) { const available = data.policies.find(p => p.id === option.value)?.available; if (!available) option.textContent += ' (not trained)'; }
   status('Local lab ready. Inject an incident to begin.'); setBusy(false);
 }).catch(error => status(error.message, true));

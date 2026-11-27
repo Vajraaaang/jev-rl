@@ -4,6 +4,7 @@ from __future__ import annotations
 from dataclasses import asdict, is_dataclass
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
+import os
 from pathlib import Path
 import re
 import threading
@@ -11,6 +12,7 @@ from urllib.parse import urlsplit
 import uuid
 
 from .environment import RecoveryEnv, Scenario, Action
+from .jev import DiagnosticProvider
 
 PACKAGE = Path(__file__).resolve().parent
 DEFAULT_OUTPUT = PACKAGE.parent / 'artifacts' / 'research'
@@ -34,7 +36,7 @@ def _checkpoint(output, name):
     return next((path for path in candidates if path.is_file()), None)
 
 
-def create_server(host='127.0.0.1', port=8080, output=None):
+def create_server(host='127.0.0.1', port=8080, output=None, *, advisor_mode='offline', cache_path=None):
     """Create an unstarted testable server. All mutation uses one serialization lock."""
     if host not in ('127.0.0.1', 'localhost'):
         raise ValueError('Recovery Lab binds localhost only')
@@ -42,6 +44,13 @@ def create_server(host='127.0.0.1', port=8080, output=None):
     if not output.is_absolute():
         raise ValueError('Benchmark output must be an absolute path')
     output = output.resolve()
+    if advisor_mode == 'live' and not os.environ.get('TYPESAFE_API_KEY', '').strip():
+        raise ValueError('Live Jev requires TYPESAFE_API_KEY or serve --advisor live --prompt-key')
+    # Share the provider so sessions use the same cache and acquisition budgets.
+    advisor = DiagnosticProvider(mode=advisor_mode, cache_path=cache_path)
+    advisor_source = 'offline-heuristic' if advisor_mode == 'offline' else 'hosted-jev'
+    advisor_info = {'advisor_mode': advisor_mode, 'advisor_source': advisor_source,
+                    'hosted_api_enabled': advisor_mode == 'live'}
     sessions = {}
     lock = threading.RLock()
     legacy = RecoveryEnv(Scenario(()))
@@ -50,7 +59,7 @@ def create_server(host='127.0.0.1', port=8080, output=None):
         env = session['env']
         return {'id': identifier, 'observation': env.observation(), 'metrics': env.metrics(),
                 'trace': env.trace, 'decisions': session['decisions'], 'done': env.done,
-                'advisor_source': 'offline-heuristic', 'simulation': True}
+                'simulation': True, **advisor_info}
 
     class Handler(BaseHTTPRequestHandler):
         def log_message(self, *_args):
@@ -113,8 +122,8 @@ def create_server(host='127.0.0.1', port=8080, output=None):
                 elif path == '/logs':
                     self.respond(200, {'logs': legacy.logs()})
                 elif path == '/api/meta':
-                    self.respond(200, {'simulation': True, 'advisor_source': 'offline-heuristic',
-                        'hosted_api_enabled': False, 'faults': ['credentials', 'connections', 'dependency'],
+                    self.respond(200, {'simulation': True, **advisor_info,
+                        'faults': ['credentials', 'connections', 'dependency'],
                         'wordings': ['train', 'validation', 'test'], 'actions': list(ACTIONS),
                         'policies': [{'id': name, 'available': name == 'checklist' or _checkpoint(output, name) is not None}
                                      for name in POLICIES], 'max_sessions': MAX_SESSIONS})
@@ -152,7 +161,6 @@ def create_server(host='127.0.0.1', port=8080, output=None):
                     elif path == '/api/incidents':
                         from .scenarios import Incident
                         from .sandbox import IncidentEnv
-                        from .jev import DiagnosticProvider
                         if len(sessions) >= MAX_SESSIONS:
                             self.respond(409, {'error': 'Session limit reached. Restart the lab to clear sessions.'})
                             return
@@ -169,7 +177,7 @@ def create_server(host='127.0.0.1', port=8080, output=None):
                             raise ValueError('wording must be a named split')
                         identifier = uuid.uuid4().hex
                         incident = Incident(id=identifier, faults=tuple(faults), wording=wording, seed=seed)
-                        sessions[identifier] = {'env': IncidentEnv(incident, advisor=DiagnosticProvider(mode='offline')),
+                        sessions[identifier] = {'env': IncidentEnv(incident, advisor=advisor),
                                                 'decisions': []}
                         self.respond(201, snapshot(identifier, sessions[identifier]))
                     elif re.fullmatch(r'/api/incidents/[a-f0-9]{32}/(?:step|run)', path):
@@ -186,7 +194,7 @@ def create_server(host='127.0.0.1', port=8080, output=None):
                             if set(data) != {'action'} or not isinstance(data['action'], str) or data['action'] not in ACTIONS:
                                 raise ValueError('action must be one of the supported tools')
                             if data['action'] == 'jev' and env.observation()['evidence']['logs'] is None:
-                                raise ValueError('Collect logs before consulting the offline advisor')
+                                raise ValueError('Collect logs before consulting the advisor')
                             env.step(data['action'])
                         else:
                             from .agent import RecoveryAgent, ChecklistPolicy
@@ -222,8 +230,8 @@ def create_server(host='127.0.0.1', port=8080, output=None):
     return server
 
 
-def serve(port=8080, output=None):
-    server = create_server(port=port, output=output)
+def serve(port=8080, output=None, *, advisor_mode='offline', cache_path=None):
+    server = create_server(port=port, output=output, advisor_mode=advisor_mode, cache_path=cache_path)
     print(f'Recovery Lab: http://127.0.0.1:{server.server_port}', flush=True)
     try:
         server.serve_forever()
